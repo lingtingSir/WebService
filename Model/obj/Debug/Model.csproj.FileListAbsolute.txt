@@ -1,0 +1,5 @@
+D:\ExamsWebService\Model\bin\Debug\Model.dll
+D:\ExamsWebService\Model\bin\Debug\Model.pdb
+D:\ExamsWebService\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\ExamsWebService\Model\obj\Debug\Model.dll
+D:\ExamsWebService\Model\obj\Debug\Model.pdb
