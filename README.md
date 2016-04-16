@@ -32,138 +32,138 @@ http://dota2ms.com/Service.asmx  类似效果
 }
 #Model
     using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Model
-{
-   public  class Student
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    
+    namespace Model
     {
- 
-        private string studentID;
-        private int classID;
-        private string studentPwd;
-        private string studentName;
-        private string studentImage;
-        private string studentDes;
-        private string x;
-        private string y;
-        private string z;
-        public string StudentID
+       public  class Student
         {
-            get
+     
+            private string studentID;
+            private int classID;
+            private string studentPwd;
+            private string studentName;
+            private string studentImage;
+            private string studentDes;
+            private string x;
+            private string y;
+            private string z;
+            public string StudentID
             {
-                return this.studentID;
+                get
+                {
+                    return this.studentID;
+                }
+                set
+                {
+                    this.studentID = value;
+                }
             }
-            set
+            public int ClassID
             {
-                this.studentID = value;
+                get
+                {
+                    return this.classID;
+                }
+                set
+                {
+                    this.classID = value;
+                }
             }
-        }
-        public int ClassID
-        {
-            get
+            public string StudentPwd
             {
-                return this.classID;
+                get
+                {
+                    return this.studentPwd;
+                }
+                set
+                {
+                    this.studentPwd = value;
+                }
             }
-            set
+            public string StudentName
             {
-                this.classID = value;
+                get
+                {
+                    return this.studentName;
+                }
+                set
+                {
+                    this.studentName = value;
+                }
             }
-        }
-        public string StudentPwd
-        {
-            get
+            public string StudentImage
             {
-                return this.studentPwd;
+                get
+                {
+                    return this.studentImage;
+                }
+                set
+                {
+                    this.studentImage = value;
+                }
             }
-            set
+            public string StudentDes
             {
-                this.studentPwd = value;
+                get
+                {
+                    return this.studentDes;
+                }
+                set
+                {
+                    this.studentDes = value;
+                }
             }
-        }
-        public string StudentName
-        {
-            get
+            public string X
             {
-                return this.studentName;
+                get
+                {
+                    return this.x;
+                }
+                set
+                {
+                    this.x = value;
+                }
             }
-            set
+            public string Y
             {
-                this.studentName = value;
+                get
+                {
+                    return this.y;
+                }
+                set
+                {
+                    this.y = value;
+                }
             }
-        }
-        public string StudentImage
-        {
-            get
+            public string Z
             {
-                return this.studentImage;
-            }
-            set
-            {
-                this.studentImage = value;
-            }
-        }
-        public string StudentDes
-        {
-            get
-            {
-                return this.studentDes;
-            }
-            set
-            {
-                this.studentDes = value;
-            }
-        }
-        public string X
-        {
-            get
-            {
-                return this.x;
-            }
-            set
-            {
-                this.x = value;
-            }
-        }
-        public string Y
-        {
-            get
-            {
-                return this.y;
-            }
-            set
-            {
-                this.y = value;
-            }
-        }
-        public string Z
-        {
-            get
-            {
-                return this.z;
-            }
-            set
-            {
-                this.z = value;
+                get
+                {
+                    return this.z;
+                }
+                set
+                {
+                    this.z = value;
+                }
             }
         }
     }
-}
 #IModel
-        using Model;
-namespace IModel
-{
-    public class IStudent
+    using Model;
+    namespace IModel
     {
-        public List<Student> content;
-
-        public String message;
-
-        public Int32 stateCode;
+        public class IStudent
+        {
+            public List<Student> content;
+    
+            public String message;
+    
+            public Int32 stateCode;
+        }
     }
-}
 
 #StudentDal
     //使用泛型 条件查询学生
@@ -449,23 +449,23 @@ namespace IModel
 }
     
 #IModel
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Model;
-namespace IModel
-{
-    public class IStudent2
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using Model;
+    namespace IModel
     {
-
-        public Student content;
-
-        public String message;
-
-        public Int32 stateCode;
+        public class IStudent2
+        {
+    
+            public Student content;
+    
+            public String message;
+    
+            public Int32 stateCode;
+        }
     }
-}
 #Dal
      //使用泛型 条件查询学生
         public Student2 StudentLogin5()
