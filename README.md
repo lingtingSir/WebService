@@ -152,12 +152,7 @@ namespace Model
     }
 }
 #IModel
-
-    using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Model;
+        using Model;
 namespace IModel
 {
     public class IStudent
@@ -224,7 +219,6 @@ namespace IModel
         //   return dal.Select();
 
     }
-
 
 #第二种格式，content两层
     {
