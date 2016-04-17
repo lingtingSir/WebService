@@ -210,7 +210,7 @@ http://dota2ms.com/Service.asmx  类似效果
             jsSerializer.MaxJsonLength = Int32.MaxValue;
          */
         Context.Response.Clear();
-        Context.Response.ContentType = "text/html";
+        Context.Response.ContentType = "text/json";
         Context.Response.Write(new JavaScriptSerializer().Serialize(studentDal.StudentLogin3(StudentID, Password)));
 
 
