@@ -6,7 +6,7 @@ http://dota2ms.com/Service.asmx  类似效果
 *   DataBase数据库操作类
 *   DatableToList DataTable转List集合
 *   DataTableConvertJson2 DataTable转化Json,不使用系统序列化换json，手动转换json
-*   目前更新比较慢，准备校招，目标是content至少达到 3 4层嵌套，希望大家能保持关注 
+*   目前更新比较慢，目标是content至少达到 3 4层嵌套，希望能保持关注 
 *   希望顺便点一下右上角的⭐️Star ，朋友的鼓励和支持是我继续分享的动力 
 *   
 
