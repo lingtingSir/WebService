@@ -6,8 +6,7 @@ C# WEB服务编写的WebService服务器端文件
 *   DatableToList DataTable转List集合
 *   DataTableConvertJson2 DataTable转化Json,不使用系统序列化换json，手动转换json
 *   目前更新比较慢，目标是content至少达到 3 4层嵌套，希望能保持关注 
-*   希望顺便点一下右上角的⭐️Star ，朋友的鼓励和支持是我继续分享的动力 
-*   
+*   如果感兴趣顺便点一下右上角的⭐️Star ，朋友的鼓励和支持是我继续分享的动力    
 
 #Features 
     
