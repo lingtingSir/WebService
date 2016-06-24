@@ -1,6 +1,5 @@
 # WebService
 C# WEB服务编写的WebService服务器端文件
-http://dota2ms.com/Service.asmx  类似效果
 
 #Known problems
 *   DataBase数据库操作类
